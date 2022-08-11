@@ -80,7 +80,7 @@ public class ResourceHarness {
 	}
 
 	protected ListAssert<String> assertFolderContent(String path) throws IOException {
-		List<String> children = new ArrayList<>();
+		/*~~>*/List<String> children = new ArrayList<>();
 		for (File child : file(path).listFiles()) {
 			children.add(child.getName());
 		}
